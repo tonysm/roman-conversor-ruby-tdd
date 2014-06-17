@@ -16,7 +16,8 @@ RSpec.describe RomanNumbersConversor do
         assertRoman 9, "IX"
         assertRoman 10, "X"
         assertRoman 20, "XX"
-
+        assertRoman 2014, "MMXIV"
+        assertRoman 19, "XIX"
     end
 
     def assertRoman number, romain
